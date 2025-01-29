@@ -21,5 +21,5 @@ export const counterReducer = createReducer(
 //   if (action.type === INCREMENT) {
 //     return state + (action as IncrementAction).value;
 //   }
-//   return state;
+//   return state
 // }
