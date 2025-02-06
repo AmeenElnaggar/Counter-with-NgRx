@@ -10,7 +10,7 @@ export const counterReducer = createReducer(
   on(increment, (state, action) => state + action.value),
   on(decrement, (state, action) => state - action.value),
   on(set, (state, action) => action.value)
-);
+)
 
 // OLD WAY
 
